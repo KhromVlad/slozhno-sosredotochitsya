@@ -12,6 +12,10 @@
   background-attachment: fixed;
 }
 
+.header {
+  height: 100vh;
+}
+
 .header__theme-menu-button_active {
   outline: 2px solid var(--border-color);
   pointer-events: none;
@@ -117,7 +121,6 @@
   line-height: 130%;
   max-inline-size: 353px;
   max-height: 117px;
-  line-height: 23px;
   padding-right: 30px;
 }
 
@@ -413,10 +416,6 @@
     margin: 0 auto;
     padding-block-start: 0;
     padding-block-end: 0;
-  }
-
-  .header__heading-info {
-    margin-left: auto;
   }
 
   .content__details-title {
