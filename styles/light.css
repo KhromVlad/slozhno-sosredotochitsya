@@ -10,3 +10,22 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+:root .theme_light {
+  --background-image: url(../images/cover-image-light.png);
+  --text-title-color: #353430;
+  --text-info-color: #353430;
+  --border-color: #353430;
+  --details-text-color: #353430;
+  --text-heading-color: #f1b2ce;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-image: url(../images/cover-image-light.png);
+  }
+}
+
+.theme_light .header__lamp {
+  display: none;
+}
