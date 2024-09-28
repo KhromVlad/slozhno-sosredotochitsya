@@ -130,17 +130,18 @@
 
 .content {
   display: grid;
-  gap: 50px;
+  gap: 30px;
   margin-block-start: 30px;
 }
 
 .content__details-text {
   margin-top: 10px;
-  margin-bottom: 10px;
   color: var(--text-info-color);
   font-weight: 400;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 130%;
+  font-style: normal;
+  margin-block-end: 17px;
 }
 
 .content__details-title {
@@ -148,10 +149,21 @@
   font-size: 18px;
   line-height: 23px;
   max-inline-size: 355px;
+  margin-block-end: 20px;
+}
+
+.content__details-title2 {
+  color: var(--details-text-color);
+  font-size: 18px;
+  line-height: 23px;
+  max-inline-size: 355px;
+  margin-block-end: 17px;
 }
 
 .content__details-subject {
-  margin-block-start: 22px;
+  margin-block-end: 14px;
+
+  /* margin-block-start: 19px; */
 }
 
 .content__details-text-site {
