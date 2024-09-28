@@ -113,6 +113,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
   text-shadow: 4px 4px 0px #ff0070;
+  margin-block-start: 5px;
 }
 
 .header__heading-info {
@@ -201,15 +202,15 @@
 }
 
 .header__heading-text:last-child {
+  padding-block-start: 280px;
   margin-top: 35px;
-  padding: 280px 0;
   text-align: center;
   text-shadow: 2px 2px 0px #ff0070;
 }
 
 .footer {
   position: relative;
-  min-height: 667px;
+  min-height: 652px; 
 }
 
 .footer::after {
@@ -381,6 +382,7 @@
 
   .content__details-subject {
     margin-block-start: 10px;
+    margin-block-end: 10px;
   }
 
   .table-title {
@@ -440,10 +442,6 @@
 
   .content__details-title3 {
     max-inline-size: 315px;
-  }
-
-  .content__details-subject {
-    margin-block-end: 10px;
   }
 
   .content__details-text {
