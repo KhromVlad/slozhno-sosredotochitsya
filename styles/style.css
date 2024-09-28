@@ -353,7 +353,7 @@
 
   .footer {
     display: flex;
-    max-height: 989px;
+    min-height: 989px;
     margin-block-start: 80px;
   }
 
@@ -446,6 +446,10 @@
     margin-block-end: 10px;
   }
 
+  .content__details-text {
+    margin-block-end: 18px;
+  }
+
   .sunset-image {
     max-height: 260px;
   }
@@ -458,7 +462,7 @@
   }
 
   .header__heading-text:last-child {
-    margin: 25px;
+    margin: 20px;
     padding: auto;
   }
 }
