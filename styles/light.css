@@ -29,3 +29,17 @@
 .theme_light .header__lamp {
   display: none;
 }
+
+.theme_light .header__theme-menu-list {
+  padding-block-start: 165px;
+}
+
+.theme_light .header__theme-menu-button:hover {
+  border: none;
+}
+
+@media (width >= 1024px) {
+  .theme_light .header__theme-menu-list {
+    padding-block-start: 0;
+  }
+}

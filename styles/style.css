@@ -93,12 +93,13 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 2px solid var(--accent-color);
+  border-bottom: 2px solid var(--border-color);
   outline: none;
 }
 
 .header__theme-menu-button:hover {
-  border: 2px solid rgba(255, 0, 112, 0.4);
+  border: none;
+  outline: 2px solid var(--border-color);
 }
 
 .header__theme-menu-button:active {
@@ -119,7 +120,7 @@
   font-size: 18px;
   line-height: 130%;
   max-inline-size: 355px;
-  min-block-size: 117px;
+  max-height: 117px;
 }
 
 .decorated-zone {
