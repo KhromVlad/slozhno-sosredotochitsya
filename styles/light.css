@@ -38,6 +38,12 @@
   border: none;
 }
 
+@media (width >= 375px) {
+  .theme_light .header__theme-menu-list {
+    padding-block-start: 65px;
+  }
+}
+
 @media (width >= 1024px) {
   .theme_light .header__theme-menu-list {
     padding-block-start: 0;

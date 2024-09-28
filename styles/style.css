@@ -1,10 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-}
-
-.page {
   width: 100wv;
   padding: 10px;
   color: var(--accent-color);
@@ -25,6 +21,7 @@
   position: relative;
   display: grid;
   gap: 55px;
+  height: 100vh;
 }
 
 .header__theme-menu {
@@ -119,8 +116,10 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
-  max-inline-size: 355px;
+  max-inline-size: 353px;
   max-height: 117px;
+  line-height: 23px;
+  padding-right: 30px;
 }
 
 .decorated-zone {
@@ -239,19 +238,18 @@
   }
 
   .header__theme-menu-list {
-    padding-block-start: 105px;
+    margin-block-start: 105px;
     padding-block-end: 15px;
   }
 
   .header__heading-info {
-    min-height: 117px;
+    max-height: 117px;
     margin-left: auto;
-    max-inline-size: 364px;
   }
 
   .header__heading-text {
-    padding-inline-start: 0;
     padding-block-start: 0px;
+    margin-inline-start: -20px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
@@ -266,12 +264,12 @@
 
   .content__details-title {
     grid-row: 1 / 2;
-    margin-block-start: 30px;
+    margin-block-start: 10px;
     max-inline-size: 236px;
   }
 
   .table-title {
-    margin-block-start: 5px;
+    margin-block-start: 0;
   }
 
   .table-text {
