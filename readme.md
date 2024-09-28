@@ -1,1 +1,1 @@
-https://github.com/KhromVlad/slozhno-sosredotochitsya 
+https://github.com/KhromVlad/slozhno-sosredotochitsya
