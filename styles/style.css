@@ -20,7 +20,7 @@
 .decorated-zone {
   position: relative;
   display: grid;
-  gap: 55px;
+  gap: 40px;
   height: 100vh;
 }
 
