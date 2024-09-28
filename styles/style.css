@@ -20,7 +20,7 @@
 .decorated-zone {
   position: relative;
   display: grid;
-  gap: 20px;
+  gap: 25px;
   height: 100vh;
 }
 
@@ -123,8 +123,8 @@
 }
 
 .decorated-zone {
-  padding-bottom: 45px;
-  padding-block-end: var(--accent-padding);
+  /* padding-bottom: 45px;
+  padding-block-end: var(--accent-padding); */
 }
 
 .title-decor {
