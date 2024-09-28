@@ -20,8 +20,8 @@
 .decorated-zone {
   position: relative;
   display: grid;
-  gap: 20px;
   height: 100vh;
+  max-height: 668px;
 }
 
 .header__theme-menu {
@@ -71,7 +71,7 @@
 .header__theme-menu::before {
   content: "";
   position: absolute;
-  bottom: 0px;
+  bottom: 20px;
   left: 1px;
   display: block;
   width: 25px;
@@ -121,10 +121,6 @@
   padding-right: 30px;
 }
 
-.decorated-zone {
-  /* padding-bottom: 45px;
-  padding-block-end: var(--accent-padding); */
-}
 
 .title-decor {
   margin-block-end: var(--decor-margin);
@@ -135,7 +131,7 @@
 .content {
   display: grid;
   gap: 50px;
-  margin-block-start: 50px;
+  margin-block-start: 30px;
 }
 
 .content__details-text {
