@@ -20,9 +20,7 @@
 
 .decorated-zone {
   position: relative;
-  /* display: grid; */
   height: 100vh;
-  /* max-height: 668px; */
 }
 
 .header__theme-menu {
@@ -41,7 +39,6 @@
   display: var(--rec-display);
   position: relative;
   padding-inline-end: 25px;
-  /* padding-block-end: var(--accent-padding); */
   font-size: 18px;
   line-height: 25px;
   text-align: right;
@@ -139,7 +136,6 @@
 .cells {
   display: grid;
   gap: 18px;
-  /* margin-block-start: 6px; */
 }
 
 .content__details-text {
@@ -237,7 +233,7 @@
 
 .footer {
   position: relative;
-  height: 100vh;
+  height: 98vh;
   margin-block-start: 49px;
   display: flex;
   justify-content: center;
