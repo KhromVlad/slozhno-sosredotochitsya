@@ -12,7 +12,7 @@
   --background-image: url(../images/cover-image-light.png);
   --text-title-color: #353430;
   --text-info-color: #353430;
-  --border-color: #353430;
+  --border-color: rgba(50, 49, 45, 0.4);
   --details-text-color: #353430;
   --text-heading-color: #f1b2ce;
 }
@@ -21,14 +21,21 @@
   --background-image: url(../images/cover-image-light.png);
   --text-title-color: #353430;
   --text-info-color: #353430;
-  --border-color: #353430;
+  --border-color: rgba(50, 49, 45, 0.4);
   --details-text-color: #353430;
   --text-heading-color: #f1b2ce;
+  --rec-display: none;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --background-image: url(../images/cover-image-light.png);
+    --text-title-color: #353430;
+    --text-info-color: #353430;
+    --border-color: rgba(50, 49, 45, 0.4);
+    --details-text-color: #353430;
+    --text-heading-color: #f1b2ce;
+    --rec-display: none;
   }
 }
 
