@@ -22,7 +22,7 @@
   --decor-margin: 10px;
   --accent-padding: 40px;
   --rec-display: inline-block;
-  --rec-padding: 0;
+  --rec-padding: 40px;
   --head-padding: 105px;
 }
 
@@ -40,6 +40,6 @@
   --decor-margin: 10px;
   --accent-padding: 40px;
   --rec-display: inline-block;
-  --rec-padding: 0;
+  --rec-padding: 40px;
   --head-padding: 105px;
 }
