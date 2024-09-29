@@ -5,6 +5,7 @@
 
 :root {
   --background-image: url(../images/cover-image-dark.png);
+  --background-color: #000028;
   --font-family: "IBM Plex mono", sans-serif;
   --accent-color: #ff0070;
   --rec-display: inline-block;
