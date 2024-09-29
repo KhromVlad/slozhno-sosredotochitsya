@@ -21,6 +21,8 @@
   --decor-margin: 10px;
   --accent-padding: 40px;
   --rec-display: inline-block;
+  --rec-padding: 0;
+  --head-padding: 105px;
 }
 
 :root.theme_dark {
@@ -36,4 +38,6 @@
   --decor-margin: 10px;
   --accent-padding: 40px;
   --rec-display: inline-block;
+  --rec-padding: 0;
+  --head-padding: 105px;
 }

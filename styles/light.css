@@ -15,6 +15,9 @@
   --border-color: rgba(50, 49, 45, 0.4);
   --details-text-color: #353430;
   --text-heading-color: #f1b2ce;
+  --rec-display: none;
+  --rec-padding: 65px;
+
 }
 
 :root .theme_light {
@@ -25,6 +28,7 @@
   --details-text-color: #353430;
   --text-heading-color: #f1b2ce;
   --rec-display: none;
+  --head-padding: 175px;
 }
 
 @media (prefers-color-scheme: light) {
@@ -36,6 +40,8 @@
     --details-text-color: #353430;
     --text-heading-color: #f1b2ce;
     --rec-display: none;
+    --rec-padding: 65px;
+    --head-padding: 175px;
   }
 }
 
@@ -53,7 +59,13 @@
 
 @media (width >= 375px) {
   .theme_light .header__theme-menu-list {
-    padding-block-start: 65px;
+    padding-block-start: var(--rec-padding);
+  }
+}
+
+@media (width >= 768px) {
+  .theme_light .header__theme-menu-list {
+    padding-block-start: var(--head-padding);
   }
 }
 
