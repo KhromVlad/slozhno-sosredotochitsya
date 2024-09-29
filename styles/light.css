@@ -29,22 +29,27 @@
   --border-color: rgba(50, 49, 45, 0.4);
   --details-text-color: #353430;
   --text-heading-color: #f1b2ce;
+  --accent-color: #ff8dc8;
+  --text-color: #353430;
   --rec-display: none;
   --head-padding: 175px;
+  --rec-padding: 65px;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --background-image: url(../images/cover-image-light.png);
-    --background-color: #fff1f7;
-    --text-title-color: #353430;
-    --text-info-color: #353430;
-    --border-color: rgba(50, 49, 45, 0.4);
-    --details-text-color: #353430;
-    --text-heading-color: #f1b2ce;
-    --rec-display: none;
-    --rec-padding: 65px;
-    --head-padding: 175px;
+  --background-color: #fff1f7;
+  --text-title-color: #353430;
+  --text-info-color: #353430;
+  --border-color: rgba(50, 49, 45, 0.4);
+  --details-text-color: #353430;
+  --text-heading-color: #f1b2ce;
+  --accent-color: #ff8dc8;
+  --text-color: #353430;
+  --rec-display: none;
+  --head-padding: 175px;
+  --rec-padding: 65px;
   }
 }
 
