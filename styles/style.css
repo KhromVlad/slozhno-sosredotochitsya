@@ -252,6 +252,7 @@
   .decorated-zone {
     height: 100vh;
     margin: 20px 20px 0 20px;
+    max-height: 1004px;
     margin-block-end: 60px;
   }
 
@@ -451,7 +452,6 @@
 
   .footer {
     height: 100vh;
-    /* min-height: 748px; */
     margin-bottom: 0;
   }
 
