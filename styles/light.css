@@ -17,6 +17,7 @@
   --details-text-color: #353430;
   --text-heading-color: #f1b2ce;
   --rec-display: none;
+  --head-padding: 170px;
   --rec-padding: 65px;
 
 }
@@ -32,7 +33,7 @@
   --accent-color: #ff8dc8;
   --text-color: #353430;
   --rec-display: none;
-  --head-padding: 175px;
+  --head-padding: 170px;
   --rec-padding: 65px;
 }
 
@@ -48,7 +49,7 @@
   --accent-color: #ff8dc8;
   --text-color: #353430;
   --rec-display: none;
-  --head-padding: 175px;
+  --head-padding: 170px;
   --rec-padding: 65px;
   }
 }

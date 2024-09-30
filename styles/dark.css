@@ -24,7 +24,7 @@
   --accent-padding: 40px;
   --rec-display: inline-block;
   --rec-padding: 40px;
-  --head-padding: 105px;
+  --head-padding: 145px;
 }
 
 :root.theme_dark {
@@ -43,5 +43,5 @@
   --accent-padding: 40px;
   --rec-display: inline-block;
   --rec-padding: 40px;
-  --head-padding: 105px;
+  --head-padding: 145px;
 }
