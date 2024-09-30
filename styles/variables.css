@@ -11,10 +11,11 @@
   --accent-color: #ff0070;
   --rec-display: inline-block;
   --rec-padding: 40px;
-  --head-padding: 145px;
+  --head-padding: 21.7vh;
   --text-info-color: #f1b2ce;
   --text-heading-color: #db00ff;
-  --border-color: rgba(255, 0, 112, 0.4);
+  --border-color: #ff0070;
+  --border-color-opacity: rgba(255, 0, 112, 0.4);
   --text-title-color: #000028;
   --details-text-color: #ff0070;
   --title-padding: 20px;
