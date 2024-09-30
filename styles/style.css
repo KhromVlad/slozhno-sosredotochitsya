@@ -384,6 +384,7 @@
     grid-template-columns: repeat(3, 315px);
     gap: 20px;
     justify-content: center;
+    margin-block-start: 13px;
   }
 
   .content__details-subject {
@@ -443,7 +444,6 @@
 
   .content__details-title-main {
     max-inline-size: 315px;
-    margin-block-end: 10px;
   }
 
   .central {
