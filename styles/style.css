@@ -446,6 +446,11 @@
     margin-block-end: 10px;
   }
 
+  .central {
+    display: grid;
+    justify-content: center;
+  }
+
   .sunset-image {
     max-height: 260px;
   }
