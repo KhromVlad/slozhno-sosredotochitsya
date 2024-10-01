@@ -20,6 +20,7 @@
 .decorated-zone {
   position: relative;
   height: 100vh;
+  min-height: 668px;
   padding: 10px;
   display: grid;
   align-items: center;
@@ -236,6 +237,7 @@
 .footer {
   position: relative;
   height: 100vh;
+  min-height: 668px;
   padding: 10px;
   display: flex;
   justify-content: center;
