@@ -164,7 +164,7 @@
 .content__details-title-main {
   color: var(--details-text-color);
   font-size: 18px;
-  line-height: 23px;
+  line-height: 130%;
   max-inline-size: 355px;
 }
 
@@ -172,10 +172,6 @@
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr;
-}
-
-.title-decor {
-  margin-block-end: 0;
 }
 
 .content__details-title-main:nth-child(2) {
